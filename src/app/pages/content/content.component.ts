@@ -8,7 +8,7 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = ""
+  photoCover:string = "https://scontent.fnat5-1.fna.fbcdn.net/v/t39.30808-6/349867786_1342050683321240_3284031431999641116_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_ohc=7dv0KuLOlnEAX_WqGQw&_nc_ht=scontent.fnat5-1.fna&oh=00_AfCLYJJ1i8yO9Oz-TNYrgmYdfZ_EXk_zkaqA8AJiYBeUxw&oe=647A4BA4"
   contentTitle:string = ""
   contentDescription:string = ""
   private id:string | null = "0"
